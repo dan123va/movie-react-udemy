@@ -1,4 +1,5 @@
 import { Layout } from "antd";
+import MenuTop from "./components/MenuTop"
 
 // Routes Sustituye a Switch a partir de la version 6 de React Router DOM
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -17,7 +18,9 @@ export default function App() {
   return (
     <Layout>
       <Router>
-        <Header>Header...</Header>
+        <Header>
+          <MenuTop />
+        </Header>
         <Content>
           <Routes>
             <Route path="/" element={<Home />} />
