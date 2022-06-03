@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import SliderMovies from "../components/SliderMovies";
 import { URL_API, API } from "../utils/constants";
 import MovieList from "../components/MovieList";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const newMovies = useFetch(
@@ -28,6 +29,7 @@ export default function Home() {
           <MovieList title="Top Mejores Peliculas Puntuadas" movies={topRateMovies} />
         </Col>
       </Row>
+      <Footer />
     </>
   );
 }

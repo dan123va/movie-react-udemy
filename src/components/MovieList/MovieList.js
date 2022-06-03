@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Avatar, Button } from "antd";
+import { List, Avatar } from "antd";
 import { Link } from "react-router-dom";
 import Loading from "../Loading";
 import { RightSquareFilled } from "@ant-design/icons";
