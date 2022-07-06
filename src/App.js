@@ -10,7 +10,7 @@ import NewMovies from "./pages/new-movies";
 import Popular from "./pages/popular";
 import Search from "./pages/search";
 import Movie from "./pages/movie/movie";
-import Error404 from "./pages/error404";
+import Error404 from "./pages/error404/error404";
 
 export default function App() {
   const { Header, Content } = Layout;
